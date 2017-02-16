@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Опитуванян</title>
+</head>
+<body>
+    <img src="1378160799_brauzery.jpg" alt="Перелік браузерів" with="800" height="500">
+    <center><h1> Опитування про браузер </h1>
+    <p> Мета: "Дізнатися якими браузерами користується зараз молодь...)</p>
+    <form action="https://formspree.io/marik1995ben@email.ru"  method="POST">
+        <h3>1. Ваще ім'я, прізвище та вік?</h3>
+        "Ім'я"
+          <br>
+        <input type="text" name="firstname">
+          <br>
+        "Прізвище"
+          <br>
+        <input type="text" name="lastname">
+          <br>
+        "Вік"
+          <br>
+        <input type="date" name="bday" min="1800-01-02">
+          <br>
+        <h3>2. Ваша стать?</h3>
+          <br>
+        <input type="radio" name="gender" value="male">
+        "Чоловік"
+          <br>
+        <input type="radio" name="gender" value="female">
+        "Жінка"
+          <br>
+        <h3>3. Яким браузером Ви користуєтесь?</h3>
+          <br>
+        <input type="checkbox" name="brauserr" value="chrome">
+         "Хром"
+          <br>
+        <input type="checkbox" name="brauser" value="opera">
+         "Опера"
+          <br>
+        <input type="checkbox" name="brauser" value="Safari">
+         "Safari"
+          <br>
+        <input type="checkbox" name="brauser" value=" Mozilla Firefox">
+         "Mozilla Firefox"
+          <br>
+        <h3>4. Як часто ви користуєтеся браузером?</h3>
+        <input list="browsers">
+          <br>
+        <datalist id="browsers">
+                  <option value="Кожного дня">
+                  <option value="Один раз в тииждень">
+                  <option value="Раз в місяць">
+                  <option value="Некористуюся">
+        </datalist>
+          <br>
+        <h3>5. Скільки браузерів є на вашому ПК</h3>
+        <input type="text" name="Number" required="" pattern="[1-999]{2-3}" placeholder="1">
+          <br
+        <h3> 5. Який браузер для вас кращий і зручніший?</h3>
+        <br>
+        <select name="brauser">
+             <option value="Chrome">Chrome</option>
+             <option value="Opera">Opera</option>
+              <option value="Safari">Safari</option>
+              <option value="Mozilla">Mozilla</option>
+        </select>
+        <h3>6. Ваші побажання і скарги на рахунок браузерів </h3>
+        <br>
+        <textarea name="message" rows="50" cols="70" pleceholder="Скарги і побажання">      </textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </center>
+    </form>
+</body>
+</html>
