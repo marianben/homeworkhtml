@@ -8,7 +8,7 @@
     <img src="1378160799_brauzery.jpg" alt="Перелік браузерів" with="800" height="500">
     <center><h1> Опитування про браузер </h1>
     <p> Мета: "Дізнатися якими браузерами користується зараз молодь...)</p>
-    <form action="https://formspree.io/marik1995ben@email.ru"  method="POST">
+    <form action="https://formspree.io/marik1995ben@mail.ru"  method="POST">
         <h3>1. Ваще ім'я, прізвище та вік?</h3>
         "Ім'я"
           <br>
@@ -20,14 +20,18 @@
           <br>
         "Вік"
           <br>
+        <input type="text" name="lastname">
+          <br>
+         " Дата народження"
+          <br>
         <input type="date" name="bday" min="1800-01-02">
           <br>
         <h3>2. Ваша стать?</h3>
           <br>
-        <input type="radio" name="gender" value="male">
+        <input type="radio" name="чоловік" value="male">
         "Чоловік"
           <br>
-        <input type="radio" name="gender" value="female">
+        <input type="radio" name="жінка" value="female">
         "Жінка"
           <br>
         <h3>3. Яким браузером Ви користуєтесь?</h3>
@@ -57,7 +61,7 @@
         <h3>5. Скільки браузерів є на вашому ПК</h3>
         <input type="text" name="Number" required="" pattern="[1-999]{2-3}" placeholder="1">
           <br
-        <h3> 5. Який браузер для вас кращий і зручніший?</h3>
+        <h3> 6. Який браузер для вас кращий і зручніший?</h3>
         <br>
         <select name="brauser">
              <option value="Chrome">Chrome</option>
@@ -69,6 +73,14 @@
         <br>
         <textarea name="message" rows="50" cols="70" pleceholder="Скарги і побажання">      </textarea>
         <br>
+        <h3>7. Дякуємо що приділили нам хвилинку свого часу. При потребі можемо на вас розраховувати???</h3>
+          <br>
+        <input type="radio" name="ansver" value="male">
+        "Так"
+          <br>
+          <input type="radio" name="ansver" value="male">
+        "Ні"
+         <br>
         <input type="submit">
         <input type="reset">
     </center>
